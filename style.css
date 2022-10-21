@@ -151,6 +151,28 @@ header .logo span:hover {
     color: black;
 }
 
+header .logo1 img{
+    top: 2px;
+    left: 12;
+    right: 12;
+    font-size: 30px;
+    color: #654304;
+    transition: all 1s ease-in-out ;
+    
+}
+
+header .logo1 img:hover {
+    /* background-color: rgb(247, 189, 189); */
+    height: 40px;
+    width: 45px;
+    /* border: 1px solid rgb(243, 239, 239); */
+    /* border-radius: 1px; */
+    font-size: 25px;
+    color: black;
+    transform: rotate(360deg);
+}
+
+
 header .navbar a {
     font-weight: bolder;
     color: rgb(104, 85, 3);
@@ -816,7 +838,7 @@ header .search-bar-container label:hover {
 
 .aboutus .box-container{
     width: 98%;
-    height: 400px;
+    height: 300px;
     /* background-image: ; */
     background-color: rgb(192, 223, 245);
     border-radius: 20px;
@@ -1099,6 +1121,12 @@ body .footer .content>div .image {
     }
 }
 
+
+.img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
 
 
 /* ending */
